@@ -113,11 +113,6 @@ em{font-style:normal;color:var(--blue)}
   color: white;
 }
 
-.contact-icon.whatsapp img {
-  width: 30px;
-  height: 30px;
-  filter: brightness(0) invert(1);
-}
 
 
 
