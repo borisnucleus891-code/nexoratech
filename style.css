@@ -107,3 +107,57 @@ em{font-style:normal;color:var(--blue)}
  .main-nav .nav-contact{display:block;border:0;padding:11px 8px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.js-ready .reveal{transition:none;transform:none}}
+
+
+.whatsapp-contact {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    color: #25D366;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.whatsapp-contact:hover {
+    color: #128C7E;
+    transform: translateY(-3px);
+}
+
+.whatsapp-icon {
+    width: 22px;
+    height: 22px;
+    fill: currentColor;
+}
+
+/* WhatsApp Floating Button */
+.whatsapp-float {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 55px;
+    height: 55px;
+    background: #25D366;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+    transition: 0.3s ease;
+}
+
+.whatsapp-float:hover {
+    background: #128C7E;
+    transform: scale(1.1);
+}
+
+.whatsapp-float svg {
+    width: 30px;
+    height: 30px;
+    fill: white;
+}
+
